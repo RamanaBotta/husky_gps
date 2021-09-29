@@ -1,0 +1,8 @@
+<launch>
+
+<node name="map_server" pkg="map_server" type="map_server" args="$(find husky_gps)/maps/playpen_map.yaml"/>
+<!-- <node name="map_server" pkg="map_server" type="map_server" args="/opt/ros/melodic/share/husky_navigation/maps/playpen_map.yamll"/> -->
+
+
+</launch>
+<!-- /opt/ros/melodic/share/husky_navigation/maps/playpen_map.yaml -->

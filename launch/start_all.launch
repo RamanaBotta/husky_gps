@@ -1,0 +1,7 @@
+<launch>
+<include file="$(find husky_gps)/launch/empty_map.launch"/>
+<include file="$(find husky_gps)/launch/gps_imu_fusion.launch"/>
+<include file="$(find husky_gps)/launch/gps_odom_imu.launch"/>
+
+
+</launch>
